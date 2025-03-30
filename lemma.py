@@ -10,7 +10,7 @@ nltk.download('punkt')
 stemmer = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
 
-text = 'the cats are running faster than the dogs '
+text = 'The Cats are running from the Dogs '
 
 words = word_tokenize(text)
 
